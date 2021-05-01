@@ -1,0 +1,4 @@
+The Gerber_PCB_ANALOG_V3 archive contains the analog PCB
+The Gerber_PCB_Digital_V3 archive contains the digital PCB designed for an ATMega329P DIP microontroller
+The BOM_PCB_ANALOG_V3 contains the list of components for the analog PCB
+The BOM_PCB__Digital_V3 contains the list of components for the Digital PCB
