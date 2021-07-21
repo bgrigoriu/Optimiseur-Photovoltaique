@@ -1,3 +1,6 @@
+#include <ESP8266WiFi.h>
+
+#include <ESP8266HTTPClient.h>
 
 #define serialNumber "YourEnvoySerialnumner"
 #define userName "installer"
@@ -33,7 +36,6 @@ for (int i=0 ; i<len; i++) {
   }
   String password ="";
  for (int i=1; i < 9; ++i) {
-  Serial.println(i);
   if (countZero == 3 || countZero == 6 || countZero == 9) countZero -= 1;
   if (countZero > 20) countZero = 20; 
   if (countZero < 0) countZero = 0;
