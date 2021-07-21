@@ -1,0 +1,2 @@
+This Directory contains two sketches written for ESP8266 that generate the password vor envoy gateway from its serial number. It is a copy/translation of the algorith found here  https://github.com/bgrigoriu/EnphaseEnergy/blob/main/passwordCalc.py
+It alos contain a demo skectch for reading data from the envoy stream each second. 
