@@ -1,2 +1,4 @@
-This Directory contains two sketches written for ESP8266 that generate the password vor envoy gateway from its serial number. It is a copy/translation of the algorith found here  https://github.com/bgrigoriu/EnphaseEnergy/blob/main/passwordCalc.py
+This Directory contains three sketches written for ESP8266 that generate the password vor envoy gateway from its serial number. It is a copy/translation of the algorith found here  https://github.com/bgrigoriu/EnphaseEnergy/blob/main/passwordCalc.py
 It alos contain a demo skectch for reading data from the envoy stream each second. 
+A third code WifiManager for EcoPv is an implmentation for 8266 of the measurement of photovoltaic production and total consumption as get from the Envoy. The management of the load is yet in test  (derived from here https://github.com/RobotDynOfficial/RBDDimmer) but other examples exists
+
